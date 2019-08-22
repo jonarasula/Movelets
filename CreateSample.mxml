@@ -17,7 +17,7 @@
 			      <text>Not so much</text>
 			    </answer>
 			    <answer key="#3_2" nextQuestionKey="END" position="1" action="NONE" onScreenValueChangeEventTrigger="NONE" timerBasedScreenValueChangeEvent="false" dummyAnswer="false" sortAnswerItemsByClientKey="false">
-			      <text>It was okay</text>
+			      <text>It was okaay</text>
 			    </answer>
 			    <answer key="#3_3" nextQuestionKey="END" position="2" action="NONE" onScreenValueChangeEventTrigger="NONE" timerBasedScreenValueChangeEvent="false" dummyAnswer="false" sortAnswerItemsByClientKey="false">
 			      <text>It was Very good!</text>
