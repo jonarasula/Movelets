@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MovilizerMovelet moveletKey="7c98b722-d274-4862-89fb-f018cf82e952" moveletKeyExtension="" namespace="" mafAppSpace="" privateNamespace="true" icon="41" moveletType="MULTI" metaMoveletType="NONE" initialQuestionKey="1" transactional="false" priority="0" syncPriority="NONE" visible="true" moveletVersion="0" xmlns="http://movilitas.com/movilizer/v16">
+  <question key="1" title="Hello World" type="0" backNavigationAllowed="true" sortAnswersByClientKey="false" tableRowDetailsEnabled="true" tableOptionsEnabled="true">
+    <answer key="#1_1" nextQuestionKey="2" position="0" action="NONE" onScreenValueChangeEventTrigger="NONE" timerBasedScreenValueChangeEvent="false" dummyAnswer="false" sortAnswerItemsByClientKey="false"/>
+    <text>Hello world here is Movilizer</text>
+  </question>
+  <question key="2" title="Take a picture!" type="10" backNavigationAllowed="true" sortAnswersByClientKey="false" tableRowDetailsEnabled="true" tableOptionsEnabled="true">
+    <answer key="#2_1" nextQuestionKey="3" position="0" action="NONE" onScreenValueChangeEventTrigger="NONE" timerBasedScreenValueChangeEvent="false" dummyAnswer="false" sortAnswerItemsByClientKey="false"/>
+    <text>What do you see?</text>
+  </question>
+  <question key="3" title="Your Opinion" type="2" backNavigationAllowed="true" sortAnswersByClientKey="false" tableRowDetailsEnabled="true" tableOptionsEnabled="true">
+    <answer key="#3_1" nextQuestionKey="END" position="0" action="NONE" onScreenValueChangeEventTrigger="NONE" timerBasedScreenValueChangeEvent="false" dummyAnswer="false" sortAnswerItemsByClientKey="false">
+      <text>Not so much</text>
+    </answer>
+    <answer key="#3_2" nextQuestionKey="END" position="1" action="NONE" onScreenValueChangeEventTrigger="NONE" timerBasedScreenValueChangeEvent="false" dummyAnswer="false" sortAnswerItemsByClientKey="false">
+      <text>It was okay</text>
+    </answer>
+    <answer key="#3_3" nextQuestionKey="END" position="2" action="NONE" onScreenValueChangeEventTrigger="NONE" timerBasedScreenValueChangeEvent="false" dummyAnswer="false" sortAnswerItemsByClientKey="false">
+      <text>It was Very good!</text>
+    </answer>
+    <text>How did you like this Movelet?</text>
+  </question>
+  <name>My First Movelet</name>
+</MovilizerMovelet>
